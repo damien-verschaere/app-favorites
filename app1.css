@@ -5,25 +5,23 @@ html, body {
   }  
 
 header{
+    display: flex;
     background-color:#ff4501;
     height: 100px;
 }
+.titre{
+    margin-left: 18%;
+}
+
 .logodokkan{
     height:100px;
     /* margin: 20px; */
 }
-h1{
-    text-align: center;
-}
+
 body{
     background-color: black;
 }
-.ligne {
-    width: 100%;
-    height: 100%;
-    border-bottom: 3px solid red;
-    position: absolute;
-}
+
 
 .imageGoku{
     margin-left: -40px;
@@ -32,7 +30,7 @@ body{
     justify-content: space-between;
 }
 .gokugauche{
-    opacity: 0.8;
+    opacity: 0.6;
     height: 700px; 
 }
 .vegetadroite{
@@ -46,7 +44,6 @@ body{
 footer{
     display: flex;
     justify-content: space-around;
-    height: 200px;
     background-color: #ff4501;  
 }
 .imgshenron{
@@ -60,5 +57,39 @@ a{
     font-style:  'Oswald', sans-serif;
     font-family: 'Scheherazade New', serif;
     font-size: large;
-    color: white;
+    color: rgb(0, 255, 0);
 }
+p{
+    color: white;
+    font-size: 40px;
+    border: solid orangered 2px;
+    box-shadow: 10px 5px 5px orangered;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.presentaionD{
+    display: flex;
+   
+    justify-content: space-evenly;
+    height: 600px;
+    
+
+}
+.equipeC{
+    height: 500px;
+    margin-top: 40px;
+    box-shadow: 10px 5px 5px orangered;
+}
+.controle{
+    height: 500px;
+    margin-top: 40px;
+    box-shadow: 10px 5px 5px orangered;
+}
+.combat{
+    height: 500px;
+    margin-top: 40px;
+    box-shadow: 10px 5px 5px orangered;
+}
+
+
