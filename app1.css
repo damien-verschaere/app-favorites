@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }  
+
+header{
+    background-color:#ff4501;
+    height: 100px;
+}
+.logodokkan{
+    height:100px;
+    /* margin: 20px; */
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+.ligne {
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid red;
+    position: absolute;
+}
+
+.imageGoku{
+    margin-left: -40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.gokugauche{
+    opacity: 0.8;
+    height: 700px; 
+}
+.vegetadroite{
+    margin-bottom: 15px;
+    opacity: 0.6;
+    height: 600px;
+} 
+.videoP{
+    margin-bottom: 150px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    background-color: #ff4501;  
+}
+.imgshenron{
+    height: 200px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-style:  'Oswald', sans-serif;
+    font-family: 'Scheherazade New', serif;
+    font-size: large;
+    color: white;
+}
