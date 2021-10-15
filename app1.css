@@ -27,7 +27,7 @@ body{
     margin-left: -40px;
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .gokugauche{
     opacity: 0.6;
@@ -40,6 +40,7 @@ body{
 } 
 .videoP{
     margin-bottom: 150px;
+
 }
 footer{
     display: flex;
@@ -70,7 +71,7 @@ p{
 }
 .presentaionD{
     display: flex;
-   
+   margin-left: 40px;
     justify-content: space-evenly;
     height: 600px;
     
