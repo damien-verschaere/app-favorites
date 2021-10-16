@@ -17,7 +17,10 @@ footer{
     display: flex;
 	height:200px;
     background-color: orangered;
-    background-image: url(image/dbz/);
+    background-image: url(image/dbz/logodokkan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
     margin-bottom: 30px;
     margin-right: 10%;
    
