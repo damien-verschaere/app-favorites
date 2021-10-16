@@ -13,8 +13,9 @@ footer{
     height: 250px;
     background-color: mediumvioletred;
 }
-.parallelogramme1{
+.rectangle1{
     display: flex;
+    justify-content: space-evenly;
 	height:200px;
     background-color: orangered;
     background-image: url(image/dbz/logodokkan.png);
@@ -22,25 +23,57 @@ footer{
     background-position: center;
     background-size: 400px;
     margin-bottom: 30px;
-    margin-right: 10%;
+    margin-right: 12%;
    
 }
-.interpara{
-    /* background-image: url(image/dbz/logodokkan.png); */
-   height: 100px;
-   width: 100px;
-    background-color: white;   
+.rectangle1 p{
+    color: white;
+    font-size: 60px;
+    text-shadow:   -1px -1px 0 #000;
+    letter-spacing:100px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    opacity: 0.6;
 }
-
-.parallelogramme2{
+.rectangle2{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(image/appfav/fb-incredibox.jpg);
+    background-repeat: no-repeat;
     background-color: white;
+    background-position: center;
     margin-bottom: 30px;
 	margin-left: 10%;
 	height:200px; 
 }
+.rectangle2 p{
+    color: black;
+    font-size: 60px;
+    text-shadow:   -1px -1px 0 #000;
+    letter-spacing:100px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    opacity: 0.6;
+} 
 
-.parallelogramme3{
-	background-color: yellow;
+
+.rectangle3{
+    display: flex;
+    justify-content: space-evenly;
+	background-image: url(image/appfav/fmlogo.png);
+    background-color:#2d4d85 ;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-right: 10%;
 	height:200px; 
 }
+.rectangle3 p{
+    color: blanchedalmond;
+    font-size: 60px;
+    text-shadow:   -1px -1px 0 #000;
+    letter-spacing:100px;
+    margin-left: 10%;
+    margin-bottom: 25px;
+    opacity: 0.6;
+}
+
