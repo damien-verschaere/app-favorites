@@ -1,0 +1,73 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 200px;
+    background-image: url(image/scorehero/headerscore.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+body{
+background-color: #3b782f;
+}
+footer{
+    background-color: darkblue;
+    height: 200px;
+    display: flex;
+     justify-content: center;
+}
+
+    .galerie img {
+        margin-top: 30px;
+    min-width:100%;
+    align-self: center; 
+    scroll-snap-align: center;
+    
+        
+    }
+.galerie {
+	
+    width: 400px;
+    max-width: 100%;
+    max-height:auto;
+    margin: auto;
+    display: flex; 
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    margin-bottom: 30px;
+    
+   
+    }
+    .paragraphe{
+        display: flex;
+        justify-content: space-evenly;
+    }
+.p1,.p2{
+    margin: 0 10px;
+    flex: 1;
+    font-size: 20px;
+    color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+    line-height: 4em;
+    }
+.paragraphe .galerie{
+    width: 400px;
+    max-width: 100%;
+    max-height:auto;
+    margin: auto;
+    
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+    margin-bottom: 20px;
+    }
+
+.section2{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    line-height: 4em;
+}

@@ -1,0 +1,55 @@
+
+header{
+    height: 250px;
+    background-color: lightblue;
+    margin-bottom: 40px;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    height: 250px;
+    background-color: mediumvioletred;
+}
+.parallelogramme1{
+    display: flex;
+    justify-content: center;
+	height:200px;
+    /* background-image: url(image/dbz/logodokkan.png); */
+    background-color: orangered;
+    /* background-position: center; */
+    /* background-size: 30%; */
+    /* background-repeat: no-repeat; */
+    transform: skew(45deg); 
+    margin-bottom: 30px;
+    margin-right: 10%;
+   
+}
+.interpara{
+    /* background-image: url(image/dbz/logodokkan.png); */
+   /* height: 100px; */
+   width: 100px;
+    background-color: white;
+    
+}
+
+.parallelogramme2{
+    background-image: url(image/appfav/banniere-goku.progressive.webp);
+    margin-bottom: 30px;
+	margin-left: 10%;
+   
+	height:200px;
+	
+    transform: skew(-45deg); 
+   
+}.parallelogramme3{
+   
+	background-image: url(image/appfav/banniere-goku.progressive.webp);
+    margin-right: 10%;
+	height:200px;
+	
+    transform: skew(45deg); 
+   
+}
