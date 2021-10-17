@@ -1,50 +1,72 @@
 
 header{
     height: 250px;
-    background-color: lightblue;
+
     margin-bottom: 40px;
 }
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: white;
+    text-shadow:   -2px -2px 0 rgb(0, 0, 0);
+}
+.logoheader{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 3%;
+    opacity: 0.3;
+}
+.foot{
+    height: 140px;
+}
+.DBZ{
+    height: 130px;
+}
 body{
-    background-color: black;
+    background: rgb(45,77,133);
+    background: linear-gradient(150deg, rgba(45,77,133,1) 0%, rgba(255,255,255,1) 50%, rgba(255,69,0,1) 100%);
     display: flex;
     flex-direction: column;
 }
 footer{
     height: 250px;
-    background-color: mediumvioletred;
+   
 }
 .rectangle1{
     display: flex;
     justify-content: space-evenly;
 	height:200px;
-    background-color: orangered;
+    background-color: #ff4500;
     background-image: url(../image/dbz/logodokkan.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 400px;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
     margin-right: 12%;
    
 }
-.rectangle1 p{
+.rectangle1 p,a{
     color: white;
     font-size: 60px;
     text-shadow:   -1px -1px 0 #000;
     letter-spacing:100px;
     margin-bottom: 35px;
     margin-left: 20px;
-    opacity: 0.6;
+    opacity: 0.8;
+    text-decoration: none;
+    
 }
 .rectangle2{
     display: flex;
     justify-content: space-evenly;
-    background-image: url(image/appfav/fb-incredibox.jpg);
+    background-image: url(../image/appfav/fb-incredibox.jpg);
     background-repeat: no-repeat;
     background-color: white;
     background-position: center;
     margin-bottom: 30px;
 	margin-left: 10%;
 	height:200px; 
+    margin-bottom: 5%;
 }
 .rectangle2 p{
     color: black;
@@ -60,7 +82,7 @@ footer{
 .rectangle3{
     display: flex;
     justify-content: space-evenly;
-	background-image: url(image/appfav/fmlogo.png);
+	background-image: url(../image/appfav/fmlogo.png);
     background-color:#2d4d85 ;
     background-repeat: no-repeat;
     background-position: center;
