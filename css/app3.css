@@ -5,7 +5,7 @@ html body{
 header{
     height: 200px;
     background-color: #2d4d85;
-    background-image: url(image/FM/logofm.svg);
+    background-image: url(../image/FM/logofm.svg);
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: center;
