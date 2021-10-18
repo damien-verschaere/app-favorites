@@ -81,7 +81,7 @@ footer{
     
 }
 .presentation{
-    margin-left: 17%;
+    margin-left: 10%;
     margin-bottom: 15px;
 }
 .infologo{
@@ -100,7 +100,9 @@ footer{
 
 .infoincredibox p{
     font-size: 40px;
-    letter-spacing: .4px; 
+    letter-spacing: .4px;
+    word-spacing: 15px; 
+    margin-right: 5%;
 }
 .centrage{
     margin-right: 30px;
